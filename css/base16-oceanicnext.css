@@ -131,6 +131,27 @@ dark-theme #search-wrapper:focus-within {
     background: var(--base01);
 }
 
+.dark-theme .block-children {
+    border-left: 1px solid var(--base02);
+}
+
+.dark-theme .non-block-editor textarea,
+.dark-theme pre,
+.dark-theme pre.code .dark-theme #right-sidebar .non-block-editor textarea,
+.dark-theme #right-sidebar pre,
+.dark-theme #right-sidebar pre.code {
+    background: var(--base01);
+}
+
+.dark-theme .block-children {
+    border-left: 1px solid var(--base02);
+}
+
+mark {
+    background: var(--base0A);
+    color: var(--base00);
+}
+
 /** CodeMirror **/
 .cm-s-default .CodeMirror {
     background: var(--base00);
