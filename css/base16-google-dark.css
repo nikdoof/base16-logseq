@@ -28,16 +28,16 @@
     --ls-secondary-background-color: var(--base01);
     --ls-tertiary-background-color: var(--ls-secondary-background-color);
     --ls-search-background-color: var(--ls-primary-background-color);
-    --ls-border-color: var(--base02);
+    --ls-border-color: var(--base03);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: var(--base05);
     --ls-secondary-text-color: var(--base06);
-    --ls-title-text-color: var(--base05);
+    --ls-title-text-color: var(--base0D);
     --ls-link-text-color: var(--base09);
     --ls-link-text-hover-color: var(--base0A);
     --ls-link-ref-text-color: var(--ls-link-text-color);
     --ls-block-bullet-border-color: var(--base02);
-    --ls-block-bullet-color: var(--base09);
+    --ls-block-bullet-color: var(--base0A);
     --ls-block-highlight-color: var(--base02);
     --ls-page-checkbox-color: var(--base01);
     --ls-page-checkbox-border-color: var(--ls-primary-background-color);
@@ -48,7 +48,7 @@
     --ls-scrollbar-color: var(--base00);
     --ls-scrollbar-thumb-hover-color: #b4b4b466;
     --ls-head-text-color: var(--ls-link-text-color);
-    --ls-icon-color: var(--ls-link-text-color);
+    --ls-icon-color: var(--base05);
     --ls-search-icon-color: var(--ls-link-text-color);
     --ls-a-chosen-bg: var(--ls-secondary-background-color);
 }
@@ -99,11 +99,18 @@ mark {
 }
 
 .dark-theme .block-children {
-    border-left: 1px solid var(--base02);
+    border-left: 1px solid var(--base01);
 }
 
 .text-gray-500 {
-    color: var(--base06);
+    color: var(--base01);
+}
+
+#right-sidebar .bg-base-2 {
+    background-color: var(--base01);
+}
+#right-sidebar .bg-base-4 {
+    background-color: var(--base00);
 }
 
 /** CodeMirror **/
