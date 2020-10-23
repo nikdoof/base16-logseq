@@ -14,6 +14,7 @@ Use a tool like [Stylus](https://chrome.google.com/webstore/detail/stylus-beta/a
 
 ## Supported Features
 
+* Supports v0.0.4.1
 * Basic colour scheme
 * CodeMirror
 
@@ -22,8 +23,4 @@ Use a tool like [Stylus](https://chrome.google.com/webstore/detail/stylus-beta/a
 * Graph colours
 * Left panel for small screens
 * A lot more that has been missed
-
-## Issues
-
-At the moment I won't respond to issues, as LogSeq are still in the process of re-working their CSS to be variable based, so these themes have the potential to break at any release. As of 0.0.4, the prebuilt css files in the `css` folder work.
 
